@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="https://us.123rf.com/450wm/avectors/avectors1806/avectors180600013/103847188-logotipo-vectorial-de-la-letra-g-en-colores-azul-y-verde.jpg?ver=6"
+              alt="letra g"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Gaston Isassa</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hello World!</h1>
+        <h1 class="heading-primary">I'm Gaston Isassa</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Front-End Developer | Angular | Typescript
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/gaston-isassa-4249a2b0/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/GastonIsassa" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="#"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Soy un agente inmobiliario, el que vende casas, que se aburrió de vender casas y comenzó a construir software. 
+						He trabajado independientemente durante el ultimo año, programando en Angular.
+						
+						Soy Desarrollador Frontend, en Angular, Typescript, Node.js, Css. También tengo conocimientos en Api Testing con Postman y Selenium Web Driver. 
+						Me considero una persona proactiva en constante aprendizaje y conocimiento con muchas ganas de seguir mejorando. Me adapto muy bien al trabajo en equipo.
+          </span>
+        </h2>
+       
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Angular</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Node.js</div>
+              <div class="skills__skill">Postman</div>
+              <div class="skills__skill">Typescript</div>
+              <div class="skills__skill">MySql</div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Pokedex</h3>
+              <p class="projects__row-content-desc">
+                App desarrollada con Angular
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Cotizador de Criptomonedas</h3>
+              <p class="projects__row-content-desc">
+                App Cotizacion de Criptomonedas desarrollada en JavaScript
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">App Wheater</h3>
+              <p class="projects__row-content-desc">
+                App para consultar sobre el Clima en diferentes lugares del mundo desarrollada con JavaScript
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-mockup-example.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Adminstrador de Veterinaria</h3>
+              <p class="projects__row-content-desc">
+                Administrador de pacientes de Veterinaria desarrollada con JavaScript
+              </p>
+              <a
+                href="./project-4.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gaston-isassa-4249a2b0/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/GastonIsassa">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Gaston Isassa </h4>
+            <p class="main-footer__short-desc">
+              Sigame en las Redes Sociales si necesita Contactarme.
+            </p>
+            <p>Email:</p>
+            <link><a href="mailto:gaston25i20@gmail.com">gaston25i20@gmail.com</a></link>
+          </div>
+        </div>
+
+        
+        <div class="main-footer__lower">
+          &copy; Copyright 2022. 
+          <p>Argentina</p>
+        
+          
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
